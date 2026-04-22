@@ -1,8 +1,6 @@
 import streamlit as st
-from dotenv import load_dotenv
 
-# Load env variables
-load_dotenv()
+
 
 # LangChain imports
 from langchain_mistralai import ChatMistralAI
